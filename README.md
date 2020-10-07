@@ -11,7 +11,6 @@ Cada uma das requisições é listada a seguir:
 
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 
-`docker run -d  --name mongo-on-docker  -p 27017:27017 mongo`
 # buscar todos os artigos
 
 Retorna um json com todas as noticias cadastradas.
