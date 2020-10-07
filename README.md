@@ -7,7 +7,10 @@ O programa deve receber requisições responsáveis por criar, editar, excluir e
 Para executar o programa primeiro devemos instalar as dependências `pip install -r requirements.txt` e executar utilizando o comando `python app.py`
 
 Cada uma das requisições é listada a seguir:
-# Iniciar banco de dados em um container
+# Instalar mongoDB localmente
+
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
 `docker run -d  --name mongo-on-docker  -p 27017:27017 mongo`
 # buscar todos os artigos
 
