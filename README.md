@@ -8,7 +8,7 @@ Para executar o programa primeiro devemos instalar as dependências `pip install
 
 Cada uma das requisições é listada a seguir:
 # Iniciar banco de dados em um container
-`docker run -d  --name mongo-on-docker  -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=secret mongo`
+`docker run -d  --name mongo-on-docker  -p 27017:27017 mongo`
 # buscar todos os artigos
 
 Retorna um json com todas as noticias cadastradas.
